@@ -1,0 +1,112 @@
+/** @format */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./images/black\ Clover.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 20px;
+}
+
+h3 {
+    color: #191919;
+    opacity: 0.75;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+}
+
+h5 {
+    color: #191919;
+    letter-spacing: 3px;
+    font-size: 30px;
+    text-align: center;
+    margin: 3px;
+    padding: 3px;
+}
+
+p {
+    color: #191919;
+    letter-spacing: 1px;
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    padding: 2px;
+}
+
+.container {
+    max-width: 100%;
+    width: 800px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 50px 20px;
+    border: #191919 solid 3px;
+    border-radius: 10px;
+    background-color: rgba(238, 238, 238, 0.3);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 6px 6px rgba(0, 0, 0, 0.3);
+}
+
+.quote {
+    color: #191919;
+    letter-spacing: 1px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 2px;
+}
+
+.btn {
+    background-color: #eeeeee;
+    color: #191919;
+    border: none;
+    padding: 14px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.4), 0 6px 6px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #191919;
+    color: #eeeeee;
+    margin: 11px;
+    box-shadow: 0 15px 15px rgba(225, 225, 225, 0.4),
+        0 6px 6px rgba(225, 225, 225, 0.4);
+    transform: scale(1.05);
+    transition: cubic-bezier(1, 0, 0, 1);
+}
+
+.btn:active {
+    transform: scale(0.98);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.btn:focus {
+    outline: none;
+}
